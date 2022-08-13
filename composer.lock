@@ -1194,16 +1194,16 @@
         },
         {
             "name": "cspray/annotated-container",
-            "version": "v1.5.1",
+            "version": "v1.5.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/cspray/annotated-container.git",
-                "reference": "0ed69640a5f6274c759871141a8145f3f8781ba4"
+                "reference": "b128f0cf2db9f50938a9baef1c6256209c84c4b3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cspray/annotated-container/zipball/0ed69640a5f6274c759871141a8145f3f8781ba4",
-                "reference": "0ed69640a5f6274c759871141a8145f3f8781ba4",
+                "url": "https://api.github.com/repos/cspray/annotated-container/zipball/b128f0cf2db9f50938a9baef1c6256209c84c4b3",
+                "reference": "b128f0cf2db9f50938a9baef1c6256209c84c4b3",
                 "shasum": ""
             },
             "require": {
@@ -1264,9 +1264,9 @@
             ],
             "support": {
                 "issues": "https://github.com/cspray/annotated-container/issues",
-                "source": "https://github.com/cspray/annotated-container/tree/v1.5.1"
+                "source": "https://github.com/cspray/annotated-container/tree/v1.5.2"
             },
-            "time": "2022-08-13T10:36:23+00:00"
+            "time": "2022-08-13T11:53:14+00:00"
         },
         {
             "name": "cspray/annotated-target",
