@@ -13,6 +13,8 @@ use Cspray\AnnotatedContainer\AmpHttpServer\Http\HttpMethod;
 final class AmpsBestController implements RequestHandler {
 
     public function handleRequest(Request $request) : Response {
-        return new Response(Status::OK, body: 'Amp is the best. Even better with Annotated Container!');
+        return new Response(Status::OK, [
+            'content-type' => 'text/plain; charset=utf-8'
+        ], 'Amp is the best. Even better with Annotated Container!');
     }
 }
