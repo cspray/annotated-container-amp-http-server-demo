@@ -21,6 +21,7 @@ final class HelloWorldController implements RequestHandler, LoggerAwareInterface
         $this->logger = new NullLogger();
     }
 
+    // It would be better to inject this in the constructor. However, want to show that service preparation works here
     public function setLogger(LoggerInterface $logger) : void {
         $this->logger = $logger;
     }
