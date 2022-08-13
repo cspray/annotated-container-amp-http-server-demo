@@ -22,6 +22,7 @@ final class ThirdPartyServicesProvider implements ContainerDefinitionBuilderCont
         // Setup logger injection
         service($context, $logger = objectType(LoggerInterface::class));
         serviceDelegate($context, $logger, objectType(LoggerFactory::class), 'createLogger');
+        service($context, objectType(LoggerAwareInterface::class));
         servicePrepare($context, objectType(LoggerAwareInterface::class), 'setLogger');
     }
 }
