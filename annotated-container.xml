@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<annotatedContainer xmlns="https://annotated-container.cspray.io/schema/annotated-container.xsd">
+  <scanDirectories>
+    <source>
+      <dir>src</dir>
+    </source>
+  </scanDirectories>
+  <containerDefinitionBuilderContextConsumer>Cspray\AnnotatedContainer\AmpHttpServer\ThirdPartyServicesProvider</containerDefinitionBuilderContextConsumer>
+  <logging>
+    <file>data/logs/annotated-container.log</file>
+  </logging>
+</annotatedContainer>
