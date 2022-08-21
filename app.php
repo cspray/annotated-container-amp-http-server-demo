@@ -4,16 +4,12 @@ namespace Cspray\AnnotatedContainer\AmpHttpServer;
 
 use Amp\Http\Server\DefaultErrorHandler;
 use Amp\Http\Server\HttpServer;
-use Cspray\AnnotatedContainer\AmpHttpServer\Routing\RouteAutowiringListener;
 use Cspray\AnnotatedContainer\AmpHttpServer\Routing\Router;
 use Cspray\AnnotatedContainer\Bootstrap;
 use Psr\Log\LoggerInterface;
 use function Amp\trapSignal;
-use function Cspray\AnnotatedContainer\eventEmitter;
 
 require_once __DIR__ . '/vendor/autoload.php';
-
-eventEmitter()->registerListener(new RouteAutowiringListener());
 
 $container = (new Bootstrap())->bootstrapContainer();
 

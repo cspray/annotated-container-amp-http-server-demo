@@ -8,6 +8,9 @@
   <!-- Amp is a long-running process and does not really need caching, uncomment this to see what caching looks like -->
   <!-- <cacheDir>.annotated-container-cache</cacheDir> -->
   <containerDefinitionBuilderContextConsumer>Cspray\AnnotatedContainer\AmpHttpServer\ThirdPartyServicesProvider</containerDefinitionBuilderContextConsumer>
+  <observers>
+    <fqcn>Cspray\AnnotatedContainer\AmpHttpServer\Routing\RouteAutowiring</fqcn>
+  </observers>
   <logging>
     <file>data/logs/annotated-container.log</file>
   </logging>
